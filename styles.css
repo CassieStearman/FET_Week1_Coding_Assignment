@@ -1,0 +1,137 @@
+body {
+    background-color:gainsboro;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color:black;
+    
+}
+
+h1 {
+    color:teal;
+    font-family:"monaco";
+    font-size: 30px;
+    text-align: center;
+    padding: 4%;
+}
+
+h2 {
+    color:whitesmoke;
+    background-color: teal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center; 
+    padding: 0%;
+}
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0%;
+    text-align: center;
+    font-size: 14px;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+b {
+    text-align: center;
+}
+
+i{
+    text-align: center;
+}
+
+a{
+   color:teal
+}
+
+form {
+    text-decoration: dashed;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+ul {
+  list-style-type:none; 
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+  position: fixed;
+  top: 0;  
+  width: 100%;
+  background-color:teal ;
+  border-style:none;
+  border-radius: 1px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* changes the link color on the nav bar*/
+li a:hover {
+    background-color: rgb(33, 93, 95);
+  }
+
+/* rounds the edges of images*/
+img {
+    border-style:hidden;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+/* Centers images*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#intro {
+   font-size: 17px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* I broke the list and cannot figure out why it won't go down anymore :( */
+#annoying-list {
+    position:relative;
+    background-color: gainsboro;
+    border-radius: 0%;
+    list-style-type: none;
+    display:list-item;
+
+}
+
+#quote {
+    color: teal;
+}
+
+/*  I tried making the unoredered list an ordered one to see if that would fix it, it did not.
+ol {
+    list-style-type:none;
+    list-style-position:initial ;
+    margin: 10px;;
+    padding: 10px; 
+    line-height: 5%;
+}*/
